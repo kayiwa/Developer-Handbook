@@ -2,9 +2,9 @@
 repositories. 
 Our Organization Account
 ==============
-The Libraries' GitHub organization account is [[ualbertalib[(https://github.com/ualbertalib)]. 
+The Libraries' GitHub organization account is [ualbertalib](https://github.com/ualbertalib). 
 
-Within this account we set up teams. The [[owners](https://github.com/orgs/ualbertalib/teams/owners)] team has full permissions on all repositories in the account. The [[ualbertalib](https://github.com/orgs/ualbertalib/teams/ualbertalib)] team contains every member of the organization, and has read-write permissions. It should normally be assigned to a new repository, unless there is a need to limit permissions for some members of the organization.
+Within this account we set up teams. The [owners](https://github.com/orgs/ualbertalib/teams/owners) team has full permissions on all repositories in the account. The [ualbertalib](https://github.com/orgs/ualbertalib/teams/ualbertalib) team contains every member of the organization, and has read-write permissions. It should normally be assigned to a new repository, unless there is a need to limit permissions for some members of the organization.
 
 For special purposes, smaller teams can be created and used. Under GitHub's model, permissions are assigned to teams, and then teams are assigned to repositories, and an individual's permissions on a repo depend on membership in assigned teams. For the ansible repository, for example, we have a sysadmins team with read-write permissions and a developers team with only read permissions. By assigning these two teams instead of the default ualbertalib team, we assign the appropriate permissions to the appropriate people.
 
